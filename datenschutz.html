@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung – BetaLog</title>
+  <style>
+    body { font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1c2530; background: #f6f3ec; margin: 0; }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+    a { color: #36546f; }
+    ul { padding-left: 1.2rem; }
+    .stand { color: #5d6b7a; margin: 0 0 1.5rem; }
+    footer { margin-top: 3rem; font-size: .9rem; color: #5d6b7a; border-top: 1px solid #ddd5c6; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="./">← BetaLog</a></p>
+  <h1>Datenschutzerklärung für BetaLog</h1>
+  <p class="stand">Stand: 17. November 2026</p>
+
+  <h2>Verantwortlich</h2>
+  <p>Jürgen Walliser</p>
+
+  <h2>Was BetaLog ist</h2>
+  <p>BetaLog ist ein privates Kletterlogbuch für den Computer. Es wird nicht öffentlich angeboten. Die Daten (Routen, Begehungen, Notizen) liegen in einer Datenbank auf dem Computer der Nutzerin oder des Nutzers. Der Entwickler betreibt keinen Server und erhält keine Daten aus dem Programm.</p>
+
+  <h2>Verbindung mit Google Drive (freiwillig)</h2>
+  <p>Wer will, verbindet BetaLog mit dem eigenen Google-Konto, damit die Originale der an Routen angehängten Fotos im eigenen Google Drive liegen. Dabei gilt:</p>
+  <ul>
+    <li><strong>Berechtigung:</strong> BetaLog bittet um genau eine Berechtigung, <code>https://www.googleapis.com/auth/drive.file</code>. Sie erlaubt dem Programm nur den Zugriff auf Dateien, die es selbst angelegt hat. Andere Dateien im Drive sieht und liest das Programm nicht.</li>
+    <li><strong>Was gespeichert wird:</strong> Das Programm legt in deinem Drive einen Ordner „BetaLog“ an und darin Fotodateien (Originale und kleine Vorschaubilder) zu deinen Routen. Es liest sie zurück, wenn du ein Bild öffnest.</li>
+    <li><strong>Anmeldung:</strong> Die Anmeldung läuft im Browser bei Google. BetaLog speichert danach ein Zugriffs-Token in einer Datei im Datenordner des Programms auf deinem Computer, außerhalb der Datenbank. Es wird an niemanden gesendet außer an Google, wenn das Programm auf dein Drive zugreift.</li>
+    <li><strong>Deine Daten gehen nicht an den Entwickler</strong> und nicht an Dritte. Alle Verbindungen laufen direkt zwischen deinem Computer und Google.</li>
+    <li><strong>Beenden:</strong> In BetaLog unter Einstellungen, Cloud und Bilder, „Von Google abmelden“ löscht das Token auf deinem Computer. Du kannst den Zugriff jederzeit unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> entziehen. Die Dateien im Ordner „BetaLog“ in deinem Drive löschst du selbst in Google Drive.</li>
+  </ul>
+  <p>Die Verwendung der von Google-APIs erhaltenen Informationen durch BetaLog entspricht der <a href="https://developers.google.com/terms/api-services-user-data-policy">Nutzerdatenrichtlinie für Google API-Dienste</a>, einschließlich der Anforderungen an die eingeschränkte Nutzung („Limited Use“). Die Daten werden nur genutzt, um die Funktion bereitzustellen, die du in BetaLog siehst (Bilder deiner Routen speichern und anzeigen), nicht für Werbung und nicht zum Training von KI-Modellen.</p>
+
+  <h2>Ohne Google-Verbindung</h2>
+  <p>Wer BetaLog nicht mit Google verbindet, behält alle Daten ausschließlich auf dem eigenen Computer. Es findet dann keine Übertragung statt.</p>
+
+  <h2>Daten aus anderen Quellen</h2>
+  <p>BetaLog kann auf Wunsch Angaben zu Routen aus öffentlichen Kletterseiten (zum Beispiel theCrag oder frankenjura.com) in die lokale Datenbank übernehmen, wenn du das auslöst. Dabei werden keine personenbezogenen Daten Dritter verarbeitet.</p>
+
+  <h2>Diese Webseite</h2>
+  <p>Diese Seite wird über GitHub Pages ausgeliefert. Dabei kann GitHub technische Zugriffsdaten (zum Beispiel die IP-Adresse) verarbeiten, siehe die <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>. Ich selbst erhebe auf dieser Seite keine Daten, setze keine Cookies und binde keine Analysewerkzeuge ein.</p>
+
+  <h2>Deine Rechte und Kontakt</h2>
+  <p>Weil der Entwickler keine personenbezogenen Daten der Nutzer erhält, kann er keine speichern oder herausgeben. Fragen zum Datenschutz: <strong>juergen.walliser@outlook.com</strong></p>
+
+  <footer>
+    <p lang="en"><strong>Privacy policy in short (English):</strong> BetaLog is a private desktop climbing logbook. Data stay on the user's computer. If the user connects Google Drive, the app uses the scope <code>drive.file</code> only to store and read photo files that it created itself in a folder “BetaLog” in the user's own Drive. A token is kept in a file on the user's computer. The developer operates no server and receives no user data; nothing is shared with third parties. The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Contact: see above.</p>
+  </footer>
+</main>
+</body>
+</html>

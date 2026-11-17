@@ -1,1 +1,46 @@
-Test
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BetaLog – privates Kletterlogbuch</title>
+  <style>
+    body { font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1c2530; background: #f6f3ec; margin: 0; }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 2rem; margin: 0 0 .25rem; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+    .unter { color: #5d6b7a; margin: 0 0 1.5rem; }
+    a { color: #36546f; }
+    ul { padding-left: 1.2rem; }
+    footer { margin-top: 3rem; font-size: .9rem; color: #5d6b7a; border-top: 1px solid #ddd5c6; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>BetaLog</h1>
+  <p class="unter">Ein privates Kletterlogbuch für den Computer</p>
+
+  <p>BetaLog ist ein Programm, mit dem ich meine Klettertage, Routen und Begehungen festhalte: Gebiete, Sektoren und Routen mit Grad und Bewertung, was ich geklettert habe und wie (Onsight, Flash, Rotpunkt und weitere), Projekte, Favoriten und Auswertungen wie die Gradpyramide.</p>
+
+  <h2>Was das Programm macht</h2>
+  <ul>
+    <li>Die Daten liegen in einer Datenbank auf dem eigenen Computer.</li>
+    <li>Zu jeder Route lassen sich Fotos anhängen. Auf Wunsch legt das Programm die Originale im <strong>eigenen Google Drive</strong> der Nutzerin oder des Nutzers ab, in einem Ordner „BetaLog“, den das Programm selbst anlegt. Auf dem Computer bleiben nur kleine Vorschaubilder, das große Bild wird beim Öffnen aus Drive geholt.</li>
+    <li>Dafür fragt das Programm bei Google nach einer einzigen Berechtigung (<code>drive.file</code>): Es sieht und verwaltet nur Dateien, die es <em>selbst</em> angelegt hat, und keine anderen Dateien im Drive.</li>
+  </ul>
+
+  <h2>Wer es benutzt</h2>
+  <p>BetaLog ist ein privates Projekt. Es steht in keinem App-Store und wird nicht öffentlich angeboten; ich gebe es nur an wenige Bekannte zum Ausprobieren weiter. Es gibt keinen Server und kein Benutzerkonto bei mir: Das Programm spricht direkt zwischen dem Computer der Nutzerin oder des Nutzers und Google, ich bekomme keine Daten.</p>
+
+  <h2>Datenschutz</h2>
+  <p>Alles zum Umgang mit Daten steht in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+
+  <h2>Kontakt</h2>
+  <p>Fragen oder Wünsche zu BetaLog: <strong>juergen.walliser(@)outlook.com</strong></p>
+
+  <footer>
+    <p lang="en"><strong>In English:</strong> BetaLog is a private desktop climbing logbook. Optionally it stores photos in the user's own Google Drive (folder “BetaLog”, scope <code>drive.file</code>, only files the app created itself). There is no server operated by the developer; the app talks directly to Google. See the <a href="datenschutz.html">privacy policy</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
